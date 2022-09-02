@@ -1,0 +1,25 @@
+oper = input("Choose a math operation (+, -, *,/): ")
+x= int(input("Enter first value: "))
+y= int(input("Enter second value: "))
+
+if x ==45 and y == 3 and oper =='*':
+
+    print(555)
+elif x == 56 and y ==9 and oper == "+":
+    print(77)
+elif x == 56 and y ==4 and oper == "/":
+    print(4)
+elif oper =="+":
+    z = x+y
+    print(z)
+elif oper =="-":
+    z = x-y
+    print(z)
+elif oper =="*":
+    z = x*y
+    print(z)
+elif oper =="/":
+    z = x/y
+    print(z)
+else:
+    print("Error!please correct your input")
